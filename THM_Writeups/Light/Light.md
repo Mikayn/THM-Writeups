@@ -2,7 +2,7 @@
 
 ## **Challenge Information:**
 
-**Link:** [https://tryhackme.com/room/lightroom](https://tryhackme.com/room/jpgchat)
+**Link:** [https://tryhackme.com/room/lightroom](https://tryhackme.com/room/lightroom)
 
 **Difficulty:** Easy
 
