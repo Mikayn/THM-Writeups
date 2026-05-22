@@ -16,9 +16,13 @@ Additional Info:
 
 ---
 
-## TLDR
-
+<details> 
+  <summary> <h2> TLDR (Spoilers) </h2></summary>
+  
 The website at port 80 had an announcement to view the site with the user-agent changed to their respective agent names. Brute forcing the agent names led to the endpoint `agent_C_attention.php`. FTP was brute forced for the user `chris` mentioned in that endpoint. Through `steganography`, password for user `james` was found and used to login to SSH. Through enumeration, `sudo` was found to be vulnerable to `CVE-2019-14287`, giving access to root and compromising the system.
+
+</details>
+
 
 ---
 
