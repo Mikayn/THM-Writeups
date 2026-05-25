@@ -16,9 +16,11 @@ Additional Info:
 
 ---
 
-## TLDR
-
+<details> 
+<summary> <h2> TLDR (Spoilers) </h2></summary>
 FTP credentials were hidden inside a PNG file found through a hidden directory, uncovered by intercepting HTTP redirects in Burp Suite. The FTP server contained `Eli's_Creds.txt` encoded in `Brainf*ck`, which decoded to SSH credentials. A hidden message at `/usr/games/s3cr3t` revealed `Gwendoline`'s password. Through enumeration, `sudo` 1.8.10p3 was found to be vulnerable to `CVE-2019-14287`, and `/usr/bin/vi` from `sudo -l` was used to gain access to root and compromising the system.
+
+</details>
 
 ---
 
