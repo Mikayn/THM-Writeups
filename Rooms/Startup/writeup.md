@@ -14,11 +14,14 @@ Additional Info:
 
 ![{3C1242D2-6D79-4AED-840C-5529839C9D2A}.png](Images/3C1242D2-6D79-4AED-840C-5529839C9D2A.png)
 
----
-
-## TLDR
+<details> 
+<summary> <h2> TLDR (Spoilers) </h2></summary>
 
 FTP was running on port 21 with `anonymous` login enabled with an empty writable directory. The files in FTP could be accessed via the `/Files` endpoint in the website at port 80. A reverse shell was uploaded via the FTP and executed via HTTP to gain access to the system as `www-data`. A `pcap` file was found in the `incidents` directory and analyzed using `Wireshark`, thereby obtaining credentials for user `lennie`.  A script owned by root called another script owned by lennie which was overwritten with a reverse shell to get root’s shell and compromising the system. 
+
+</details>
+
+---
 
 ## Initial Reconnissance
 
