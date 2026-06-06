@@ -14,9 +14,13 @@
 
 ![](Images/image.png)
 
-## TLDR
+<details> 
+<summary> <h2> TLDR (Spoilers) </h2></summary>
+A wordpress website was running at `blog` endpoint on port 80 with xmlrpc enabled, where username `admin` was discovered through username disclosure and brute force gave the password. Through a reverse shell in WP Theme editor, a shell was obtained as `www-data`. Jenkins was found to be running internally on port `8080`, whose password was brute forced after port forwarding via `chisel`. A shell was obtained as `jenkins` in a docker container through reverse shell on Jenkins’s console script. Further enumeration led to root’s password in the `internal` server, thereby completing the pentesting.
 
-A wordpress website was running at `/blog` endpoint on port 80 with xmlrpc enabled, where username `admin` was discovered through username disclosure and brute force gave the password. Through a reverse shell in WP Theme editor, a shell was obtained as `www-data`. Jenkins was found to be running internally on port `8080`, whose password was brute forced after port forwarding via `chisel`. A shell was obtained as `jenkins` in a docker container through reverse shell on Jenkins’s console script. Further enumeration led to root’s password in the `internal` server, thereby completing the pentesting.
+</details>
+
+---
 
 ## Initial Reconnaissance
 
