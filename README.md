@@ -1,3 +1,3 @@
-Some writeups of the labs/ challenges/ rooms I have done. Will get around to uploading HTB writeups later. 
+Moved them to my gitbook for cleaner loading and representation.
 
-Practicing my documentation skills. Always improving the quality of my writeups. 
+[Here](https://mikayn.gitbook.io/)
